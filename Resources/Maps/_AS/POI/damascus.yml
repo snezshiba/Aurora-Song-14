@@ -39684,7 +39684,7 @@ entities:
     - type: Transform
       pos: 8.982289,36.58712
       parent: 3
-- proto: StationAdminBankATMEdison
+- proto: StationAdminBankATMDamascus 
   entities:
   - uid: 1661
     components:

@@ -1,0 +1,8 @@
+- type: entity
+  parent: BaseComputerTabletopStationAdminBankATM
+  id: ComputerTabletopStationAdminBankATMDamascus
+  description: Used to transfer funds to and from Damascus's bank account.
+  suffix: Damascus, Tabletop
+  components:
+  - type: StationBankATM
+    account: Damascus

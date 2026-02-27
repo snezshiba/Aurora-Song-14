@@ -1,0 +1,10 @@
+#region Damascus
+
+- type: entity
+  parent: BaseStationAdminBankATM
+  id: StationAdminBankATMDamascus
+  description: Used to transfer funds to and from Damascus's bank account.
+  suffix: Damascus
+  components:
+  - type: StationBankATM
+    account: Damascus

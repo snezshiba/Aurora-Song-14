@@ -59,7 +59,7 @@
           True: { visible: true }
           False: { visible: false }
   - type: PowerTransmission
-    account: Edison
+    account: Damascus # Aurora's Song - Changed to support Damascus account
   - type: PowerConsumer
     drawRate: 100000
   - type: ExaminableBattery

@@ -764,14 +764,14 @@
   - type: StationBankATM
     account: Medical
 
-- type: entity
-  parent: BaseComputerTabletopStationAdminBankATM
-  id: ComputerTabletopStationAdminBankATMEdison
-  description: Used to transfer funds to and from Edison's bank account.
-  suffix: Edison, Tabletop
-  components:
-  - type: StationBankATM
-    account: Edison
+#- type: entity # Aurora's Song - Changed in favor of Damascus prototype
+#  parent: BaseComputerTabletopStationAdminBankATM
+#  id: ComputerTabletopStationAdminBankATMEdison
+#  description: Used to transfer funds to and from Edison's bank account.
+#  suffix: Edison, Tabletop
+#  components:
+#  - type: StationBankATM
+#    account: Edison
 
 - type: entity
   parent: [BaseStructureIndestructible, BaseStructureComputerTabletop, ComputerContrabandPalletConsole]
