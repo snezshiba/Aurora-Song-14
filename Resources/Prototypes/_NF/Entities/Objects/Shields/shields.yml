@@ -16,12 +16,19 @@
   id: NFMetalShield
   description: A sturdy metal shield. It has a window so you can wink at whatever is hitting you.
   components:
-  - type: Sprite
-    sprite: _NF/Objects/Weapons/Melee/shields.rsi
-    state: metal-icon
-  - type: Item
-    sprite: _NF/Objects/Weapons/Melee/shields.rsi
-    heldPrefix: metal
+  # Begin of Aurora's Song change - Suit Storage slot based on harmony rework
+    - type: Sprite
+      sprite: _AS/Objects/Weapons/Melee/Shields/metal-shield.rsi
+      state: icon
+    - type: Item
+      sprite: _AS/Objects/Weapons/Melee/Shields/metal-shield.rsi
+      size: Ginormous
+    - type: Clothing
+      sprite: _AS/Objects/Weapons/Melee/Shields/metal-shield.rsi
+      quickEquip: false
+      slots:
+      - suitStorage
+  # End of Aurora's Song change - Suit Storage slot based on harmony rework
 
 - type: entity
   id: NFShieldReflective
