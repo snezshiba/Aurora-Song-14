@@ -36,6 +36,10 @@
     Hair: MobHumanoidAnyMarking
     Snout: MobHumanoidAnyMarking
     # End DeltaV Additions
+    # Aurora's Song - Add underwear marking layer
+    UndergarmentTop: MobHumanoidAnyMarking
+    UndergarmentBottom: MobHumanoidAnyMarking
+    # Aurora's Song end
     Chest: MobIPCTorso
     LArm: MobIPCLArm
     RArm: MobIPCRArm
