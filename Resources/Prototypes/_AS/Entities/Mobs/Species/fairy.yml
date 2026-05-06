@@ -39,6 +39,8 @@
       40: 0.5
   - type: DamageVisuals
     targetLayers:
+    - "enum.HumanoidVisualLayers.UndergarmentBottom"
+    - "enum.HumanoidVisualLayers.UndergarmentTop"
     - "enum.HumanoidVisualLayers.Chest"
     - "enum.HumanoidVisualLayers.Head"
     - "enum.HumanoidVisualLayers.LArm"
