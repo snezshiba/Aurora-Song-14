@@ -1,13 +1,4 @@
 - type: marking
-  id: MessyPonytail
-  bodyPart: Hair
-  markingCategory: Hair
-  speciesRestriction: [ Human, Dwarf, SlimePerson, Oni, Goblin, Felinid, Sheleg, Tajaran, Feroxi, Rodentia, Harpy ] # Aurora Song edit to add Oni, Goblin, Felinid, Sheleg, Tajaran, Feroxi, Rodentia, and Harpy
-  sprites:
-  - sprite: _Impstation/Mobs/Customization/markingsbundle2.rsi
-    state: messyponytail
-
-- type: marking
   id: HumanoidEyebags
   bodyPart: Head
   markingCategory: Head
